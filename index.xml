@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Botiga>
+    <!-- Creem un contenidor per el producte, donem una categoria, disponibilitat, el codi i si es superior a x-->
+    <producte_01 categoria="Teclat" disponibilitat="Si" preu="Superior_a_15" codi="001">
+        <!-- Donem infomacio basica com: nom, descripcio i preu-->
+        <informacio_Producte>
+            <nom_Producte>Teclado Mecanico</nom_Producte>
+            <descripcio_Producte>Aquest teclat es un teclat mecanic</descripcio_Producte>
+            <preu_Producte>19.99€</preu_Producte>
+        </informacio_Producte>
+        <!-- Mostrem una imatge del "producte"-->
+        <img_Producte>https://es.marsgaming.eu/uploads/_thumnails/mkxtkl-iso-1_640x480.png</img_Producte>
+    </producte_01>
+    <producte_02 categoria="Teclat" disponibilitat="Si" preu="Superior_a_10" codi="002">
+        <informacio_Producte>
+            <nom_Producte>Teclat de membrana</nom_Producte>
+            <descripcio_Producte>Aquest teclat es un teclat de membrana</descripcio_Producte>
+            <preu_Producte>14.99€</preu_Producte>
+        </informacio_Producte>
+        <img_Producte>https://nitrosystems.com.co/wp-content/uploads/2022/01/presdentacion.png</img_Producte>
+    </producte_02>
+    <producte_03 categoria="Ratoli" disponibilitat="No" preu="Superior_a_5" codi="003">
+        <informacio_Producte>
+            <nom_Producte>Ratoli</nom_Producte>
+            <descripcio_Producte>Aquest ratoli pot regular la velocitat</descripcio_Producte>
+            <preu_Producte>9.99€</preu_Producte>
+        </informacio_Producte>
+        <img_Producte>https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g502-lightspeed-gaming-mouse/g502-lightspeed-gallery-1.png?v=1</img_Producte>
+    </producte_03>
+</Botiga>

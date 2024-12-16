@@ -1,0 +1,140 @@
+{
+    "pokemons": [
+        {
+            "valors": {
+                "id": 133,
+                "nom": "eevee",
+                "tipus": "normal",
+                "pes": 6.5,
+                "unitat_pes": "kg",
+                "altura": 0.3,
+                "unitat_altura": "m",
+                "estadistiques": {
+                    "velocitat": 4,
+                    "fortalesa": 4,
+                    "precisio": 4,
+                    "resistencia": 3 
+                }
+            },
+            "moviments": [
+                {
+                    "nom": "placaje",
+                    "descripcio": "Placaje causa daño y no tiene ningún efecto secundario",
+                    "potencia": 35,
+                    "contacte": "Sí" 
+                },
+                {
+                    "nom": "latigo",
+                    "descripcio": "Látigo baja un nivel la defensa del oponente. En combates dobles y triples afecta a todos los oponentes adyacentes.",
+                    "potencia": null,
+                    "contacte": "No" 
+                },
+                {
+                    "nom": "gruñido",
+                    "descripcio": "Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo. En combates dobles y triples afecta a los oponentes adyacentes. No afecta a Pokémon con las habilidades corte fuerte, cuerpo puro, humo blanco, guardia metálica o insonorizar.",
+                    "potencia": null,
+                    "contacte": "Sí"
+                },
+                {
+                    "nom": "refuerzo",
+                    "descripcio": "Refuerzo es un movimiento de alta prioridad (+5) que aumenta en un 50% la potencia de los movimientos del aliado adyacente elegido durante ese turno. Solo se puede usar en combates con aliados, es decir, en combates dobles, triples, incursiones Dinamax y Teraincursiones. Si es usado en un combate individual, refuerzo fallará. De forma excepcional, refuerzo puede usarse en Battle Royales contra cualquier oponente, reforzando sus movimientos.",
+                    "potencia": null,
+                    "contacte": "No"
+                },
+                {
+                    "nom": "antojo",
+                    "descripcio": "Antojo causa daño y no tiene ningún efecto secundario. Además, si el objetivo lleva un objeto equipado, se lo robará y pasará a estar equipado al usuario.",
+                    "potencia": 60,
+                    "contacte": "Sí" 
+                }
+            ],
+            "imatge": "https://mystickermania.com/cdn/stickers/pokemon/pkm-eevee-smile-512x512.png",
+            "evoluciones": [
+                {
+                    "nombre": "vaporeon",
+                    "id_evolucion": 134,
+                    "nivel": null
+                },
+                {
+                    "nombre": "jolteon",
+                    "id_evolucion": 135,
+                    "nivel": null
+                },
+                {
+                    "nombre": "flareon",
+                    "id_evolucion": 136,
+                    "nivel": null
+                },
+                {
+                    "nombre": "espeon",
+                    "id_evolucion": 196,
+                    "nivel": null
+                },
+                {
+                    "nombre": "umbreon",
+                    "id_evolucion": 197,
+                    "nivel": null
+                },
+                {
+                    "nombre": "leafeon",
+                    "id_evolucion": 470,
+                    "nivel": null
+                },
+                {
+                    "nombre": "glaceon",
+                    "id_evolucion": 471,
+                    "nivel": null
+                },
+                {
+                    "nombre": "sylveon",
+                    "id_evolucion": 700,
+                    "nivel": null
+                }
+            ]
+        },
+        {
+            "valors": {
+                "id": 1,
+                "nom": "Bulbasaur",
+                "tipus": ["planta", "veneno"],
+                "pes": 6.9,
+                "unitat_pes": "kg",
+                "altura": 0.7,
+                "unitat_altura": "m",
+                "estadistiques": {
+                    "velocitat": 3,
+                    "fortalesa": 3,
+                    "precisio": 4,
+                    "resistencia": 4 
+                }
+            },
+            "moviments": [
+                {
+                    "nom": "placaje",
+                    "descripcio": "Placaje causa daño y no tiene ningún efecto secundario",
+                    "potencia": 35,
+                    "contacte": "Sí" 
+                },
+                {
+                    "nom": "gruñido",
+                    "descripcio": "Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo. En combates dobles y triples afecta a los oponentes adyacentes. No afecta a Pokémon con las habilidades corte fuerte, cuerpo puro, humo blanco, guardia metálica o insonorizar.",
+                    "potencia": null,
+                    "contacte": "Sí"
+                }
+            ],
+            "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9algHP6rhazKZIWdL0dLw6NNz2xQ8RNvIxg&s",
+            "evoluciones": [
+                {
+                    "nombre": "Ivysaur",
+                    "id_evolucion": 2,
+                    "nivel": 16
+                },
+                {
+                    "nombre": "Venusaur",
+                    "id_evolucion": 3,
+                    "nivel": 32
+                }
+            ]
+        } 
+    ]
+}
